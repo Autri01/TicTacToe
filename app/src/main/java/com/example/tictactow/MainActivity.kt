@@ -31,6 +31,7 @@ class MainActivity : AppCompatActivity() , View.OnClickListener{
            TURN_COUNT=0;
             Player=true
             initializeBoardStatus()
+            updateDiplay("Player X Turn")
         }
     }
 
